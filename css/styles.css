@@ -5,3 +5,17 @@
   position: fixed;
   background-repeat: no-repeat;
 }
+
+/*#output {
+  display: inline-block;
+}*/
+
+#output {
+  height: 30%;
+  width: 40%;
+  border: 2px solid black;
+  text-align: center;
+  background-color: rgba(0, 198, 255, 0.5);
+  margin-left: 30%;
+
+}
