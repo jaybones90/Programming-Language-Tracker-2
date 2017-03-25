@@ -17,8 +17,10 @@
         <li role="presentation"><a href="resources.html">Resources</a></li>
       </ul>
       <h1>Survey</h1>
-      <h2>Hit Start To Begin</h2>
-      <button id="start-button" class="btn" type="button">Start</button>
+      <div id="start-section">
+        <h2>Hit Start To Begin</h2>
+        <button id="start-button" class="btn" type="button">Start</button>
+      </div>
       <div id="main-section">
         <form>
         <h3>Why Do You Want To Learn Computer Programming?</h3>
@@ -30,18 +32,98 @@
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="question1" id="question1" value="1" checked>
+              <input type="radio" name="question1" id="question2" value="2">
               Because You Love Coding
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="question1" id="question1" value="1" checked>
+              <input type="radio" name="question1" id="question3" value="3">
               You Want To Learn A New Skill
             </label>
           </div>
+        <h3>What Is Your Previous Experience With Computer Programming?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" id="question4" value="1" checked>
+              Zero Experience With Programming
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" id="question5" value="2">
+              Basic Understanding Of How To Read And Write Code
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" id="question6" value="3">
+              Already Know A Few Programming Languages And Want To Learn A Few More
+            </label>
+          </div>
+        <h3>Where Do You Imagine Yourself Working After Graduating From Epicodus</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" id="question7" value="1" checked>
+              A Big Corporation With A Consistent Routine And Work Environment
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" id="question8" value="2">
+              A Small Start-Up Company With A Flexible And Constantly Changing Work Environment
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" id="question9" value="3">
+              Whatever Place Sounds Nice Because You Work Remotely
+            </label>
+          </div>
+        <h3>What Is Your Level Of Understanding In Mathematics</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" id="question10" value="1" checked>
+              Can Barely Remember High-School Algebra
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" id="question11" value="2">
+              Proficient In College Undergrad Level Math
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" id="question12" value="3">
+              Deep Understanding Of Complex Mathematical Principles
+            </label>
+          </div>
+        <h3>What Is Your Learning Preference?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" id="question13" value="1" checked>
+              Watch Videos
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" id="question14" value="2">
+              Read Books And Articles
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" id="question15" value="3">
+              You Watch Videos And Supplement With Text
+            </label>
+          </div>
+          <br></br>
+          <br></br>
         </form>
       </div>
+      <button class="btn" type="click" id="submit-button">Submit!</button>
+      <div id="output" class="display"></div>
     </div>
   </body>
 </html>
